@@ -1,0 +1,186 @@
+* {
+	box-sizing: border-box ;
+	/*border-style: solid;
+	border-color: red;
+	border-width: .3px;*/
+}
+
+body {
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif ;
+		/* The background image I chose is different from the one used in the prototype CSS template.
+		Both images can be found at https://subtlepatterns.com/ */
+	background-image: url("images/concrete_seamless.png") ;
+}
+
+.navbar.navbar-default {
+		/*Positioning Properties*/
+	padding: 15px ;
+	height: 80px ;
+	text-align: right ;
+	background-color: #ffffff ;
+	border-bottom-color: #cccccc ;
+	border-bottom-style: solid ;
+	border-top: 0;
+	border-width: 2px;
+}
+
+.img-thumbnail {
+	float: left;
+	margin-right: 10px;
+}
+
+a {
+	color: grey;
+	text-decoration: none ;
+}
+
+.navbar-brand {
+    color: #ffffff ;
+    text-align: center ;
+    padding: 15px ;
+	height: 80px ;
+    width: 280px;
+    font-family: 'Georgia', Times, Times New Roman, serif ;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #4aaaa5 ;
+}
+
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif ;
+	color: #4aaaa5 ;
+	font-size: 28px ;
+	font-weight: bold;
+	line-height: 50px ;
+	margin-bottom: 25px ;
+}
+
+h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif ;
+	font-size: 23px ;
+	color: #4aaaa5;
+	line-height: 50px ;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+h4 {
+	position: relative;
+    z-index: 1;
+    bottom: 72px;
+    background-color: #4aaaa5;
+    display: block;
+    left: 0px;
+    width: 250px;
+    height: 50px ;
+    font-size: 20px ;
+    color: white ;
+    text-align: center;
+    padding: 10px ;
+}
+
+p{
+	size: 30px;
+}
+
+.textBox {
+
+	margin-top: 20px;
+}
+
+#mainBox {
+		/*Positioning Properties*/
+	float: left;
+	padding: 30px;
+	padding-top: 0;
+	margin-bottom: 100px;
+	margin-top: 20px;
+
+		/*Aesthetics*/
+	background-color: #ffffff;
+	color: grey;
+	line-height: 30px;
+	text-align: wrap;
+	border-style: solid;
+	border-width: 1px ;
+	border-color: #dddddd;
+}
+
+.message {
+	height: 150px;
+	width: 100%;
+} 
+
+.msgInput {
+	width: 100% ;
+}
+
+.submitButton {
+	margin-top: 20px ;
+	width: 100px ;
+	height: 30px ;
+	font-size: 15px ;
+	background-color: #4aaaa5 ;
+	color: #ffffff ;
+	border-style: none ;
+}
+
+.submitButton:hover {
+	background-color: grey ;
+}
+
+.portfolioPics {
+	width: 250px ;
+}
+
+.img1 {
+	width: 250px;
+	display: inline-block;
+	margin-right: 20px ;
+	margin-left: 10px ;
+}
+
+#sidebar {
+    width: 270px ;
+    background-color: white ;
+    text-align: center ;
+    border-color: #EEEEEE ;
+    border-style: solid ;
+    clear: both ;
+    display: inline-block;
+    color: #4aaaa5 ;
+    font-weight: bold;
+    line-height: 20px ;
+    padding: 20px;
+    position: fixed ;
+}
+
+.icon {
+ 	width: 64px ;
+	margin-bottom: 10px;
+}
+
+.footer.navbar-fixed-bottom {
+	background-color: grey ;
+	height: 80px ;
+	width: 100% ;
+	padding: 25px ;
+	margin-bottom: 0px ;
+
+	border-top-style: solid ;
+	border-color: #4aaaa5 ;
+	border-width: 10px ;
+	
+	clear: both ;
+	position: fixed;
+	bottom: 0 ;
+	overflow: hidden ;
+	z-index: 4;
+}
+
+.text-muted {
+	color: white ;
+	text-align: center ;
+	font-size: 15px;
+}
